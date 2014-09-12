@@ -1,751 +1,620 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
+<document>
+
+<international>
 
 <country abbr2="ca" abbr3="can">
-
-  <carrier option="bell_canada">
-  	<active>true</active>  
+  <carriers>
+  
+  <carrier option="bell_canada" active="true">
     <name>
 	  <short>Bell Canada</short>
 	  <full>Bell Canada</full>
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>bellmobility.ca</email>
 	</sms>	
   </carrier>
-
-
-</country>
-
-<country abbr2="us" abbr3="usa">
-  <carrier option="3_river_wireless_us">
-  	<active>true</active>  
-    <name>
-	  <short>3 River</short>
-	  <full>3 River Wireless</full>
-	</name>
-	<sms>
-	  <active>true</active>
-	  <email>sms.3rivers.net</email>
-	</sms>	
-  </carrier>
   
-  <carrier option="acs_wireless_us">
-  	<active>true</active>  
-    <name>
-	  <short>ACS</short>
-	  <full>ACS Wireless</full>
-    </name>
-	<sms>
-	  <active>true</active>
-	  <email>paging.acswireless.com</email>
-	</sms>	
-  </carrier>
-  
-  <carrier option="alltel_us">
-  	<active>true</active>  
-    <name>
-	  <short>Alltel</short>
-	  <full>Alltel Wireless</full>	
-	</name>
-	<sms>
-	  <active>true</active>
-	  <email>message.alltel.com</email>
-	</sms>	
-  </carrier>
-
-  <carrier option="att_us">
-  	<active>true</active>    
-    <name>
-	  <short>AT&T</short>
-	  <full>AT&T</full>
-	</name>
-	<sms>
-	  <active>true</active>
-	  <email>txt.att.net</email>
-	</sms>	
-  </carrier>
-  
-  <carrier option="bell_ca">
-  	<active>true</active>  
+  <carrier option="bell_ca" active="true">
     <name>
 	  <short>Bell Canada</short>
 	  <full>Bell Canada</full>
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>txt.bell.ca</email>
 	</sms>	
   </carrier> 
   
-  <carrier option="bell_mobility_ca">
-  	<active>true</active>  
+  <carrier option="bell_mobility_ca" active="true">
     <name>
 	  <short>Bell Mobility</short>
 	  <full>Bell Mobility</full>
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>txt.bellmobility.ca</email>
 	</sms>	
-  </carrier> 
+  </carrier>
+  
+  <carrier option="fido_ca" active="true">
+    <name>
+	  <short>Fido</short>
+	  <full>Fido</full>		
+	</name>
+	<sms active="true">
+	  <email>fido.ca</email>
+	</sms>	
+  </carrier>
+ 
+  <carrier option="presidents_choice_ca" active="true">
+    <name>
+	  <short>Presidents Choice</short>
+	  <full>Presidents Choice</full>		
+	</name>
+	<sms active="true">
+	  <email>txt.bell.ca</email>
+	</sms>	
+  </carrier>
+  
+  <carrier option="virgin_mobile_ca" active="true">
+    <name>
+	  <short>Virgin Mobile (CA)</short>
+	  <full>Virgin Mobile Canada</full>		
+	</name>
+	<sms active="true">
+	  <email>vmobile.ca</email>
+	</sms>
+  </carrier>
+    
+  </carriers> 
+</country>
 
-  <carrier option="blue_sky_frog_TODO">
-  	<active>true</active>  
+
+<country abbr2="us" abbr3="usa">
+  <carriers>
+  
+  <carrier option="3_river_wireless_us" active="true">
+    <name>
+	  <short>3 River</short>
+	  <full>3 River Wireless</full>
+	</name>
+	<sms active="true">
+	  <email>sms.3rivers.net</email>
+	</sms>	
+  </carrier>
+  
+  <carrier option="acs_wireless_us" active="true">
+    <name>
+	  <short>ACS</short>
+	  <full>ACS Wireless</full>
+    </name>
+	<sms active="true">
+	  <email>paging.acswireless.com</email>
+	</sms>	
+  </carrier>
+  
+  <carrier option="alltel_us" active="true">
+    <name>
+	  <short>Alltel</short>
+	  <full>Alltel Wireless</full>	
+	</name>
+	<sms active="true">
+	  <email>message.alltel.com</email>
+	</sms>	
+  </carrier>
+
+  <carrier option="att_us" active="true">
+    <name>
+	  <short>AT&amp;T</short>
+	  <full>AT&amp;T</full>
+	</name>
+	<sms active="true">
+	  <email>txt.att.net</email>
+	</sms>	
+  </carrier>
+ 
+  <carrier option="blue_sky_frog_TODO" active="true">
     <name>
 	  <short>Blue Sky Frog</short>
 	  <full>Blue Sky Frog</full>	  
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>blueskyfrog.com</email>
 	</sms>	
   </carrier>
   
-  <carrier option="bluegrass_cellular">
-  	<active>true</active>  
+  <carrier option="bluegrass_cellular_TODO" active="true">
     <name>
 	  <short>Bluegrass Cellular</short>
 	  <full>Bluegrass Cellular</full>
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>sms.bluecell.com</email>
 	</sms>	
   </carrier>
   
-  <carrier option="boost_mobile_us">
-  	<active>true</active>  
+  <carrier option="boost_mobile_us" active="true">
     <name>
 	  <short>Boost</short>
 	  <full>Boost Mobile</full>
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>myboostmobile.com</email>
 	</sms>	
   </carrier>
 
-  <carrier option="bpl_mobile_TODO">
-  	<active>true</active>  
+  <carrier option="bpl_mobile_TODO" active="true">
     <name>
 	  <short>BPL</short>
 	  <full>BPL Mobile</full>
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>bplmobile.com</email>
 	</sms>	
   </carrier>
   
-  <carrier option="carolina_west_wireless_TODO">
-  	<active>true</active>  
+  <carrier option="carolina_west_wireless_TODO" active="true">
     <name>
 	  <short>Carolina West</short>
 	  <full>Carolina West Wireless</full>
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>cwwsms.com</email>
 	</sms>	
   </carrier>
   
-  <carrier option="cellular_one_us">
-  	<active>true</active>  
+  <carrier option="cellular_one_us" active="true">
     <name>
 	  <short>Cellular One</short>
 	  <full>Cellular One</full>
 	</name>
 	<sms>
-	  <active>true</active>
 	  <email>mobile.celloneusa.com</email>
 	</sms>	
   </carrier> 
   
-  <carrier option="cellular_south_us">
-  	<active>true</active>  
+  <carrier option="cellular_south_us" active="true">
     <name>
-	  <short>Cellular South<short>
-	  <full>Cellular South<full>	  
+	  <short>Cellular South</short>
+	  <full>Cellular South</full>	  
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>csouth1.com</email>
 	</sms>	
   </carrier>
 
-  <carrier option="centurytel_TODO">
-  	<active>true</active>  
+  <carrier option="centurytel_TODO" active="true">
     <name>
 	  <short>CenturyTel</short>
 	  <full>CenturyTel</full>
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>messaging.centurytel.net</email>
 	</sms>		
   </carrier>
   
-  <carrier option="cingular_us">
-  	<active>true</active>  
+  <carrier option="cingular_us" active="true">
     <name>
 	  <short>Cingular</short>
 	  <full>Cingular</full>	
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>txt.att.net</email>
 	</sms>		
   </carrier>
   
-  <carrier option="clearnet_TODO">
-  	<active>true</active>  
-    <name>Clearnet
+  <carrier option="clearnet_TODO" active="true">
+    <name>
 	  <short>Clearnet</short>
 	  <full>Clearnet</full>	
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>msg.clearnet.com</email>
 	</sms>	
   </carrier>
-//=================
-  <carrier option="comcast_us">
-  	<active>true</active>  
-    <name>Comcast
-	  <short>Clearnet</short>
-	  <full>Clearnet</full>		
+
+  <carrier option="comcast_us" active="true">
+    <name>
+	  <short>Comcast</short>
+	  <full>Comcast</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>comcastpcs.textmsg.com</email>
 	</sms>	
   </carrier>
-  
-  <carrier>
-  	<active>true</active>  
-    <option>corr_wireless_comm</option>
-    <name>Corr Wireless Communications
-	  <short>Clearnet</short>
-	  <full>Clearnet</full>		
+
+  <carrier option="corr_wireless_TODO" active="true">
+    <name>
+	  <short>Corr</short>
+	  <full>Corr Wireless</full>		
 	</name>
-	<sms_email>corrwireless.net</sms_email>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>corrwireless.net</email>
 	</sms>	
   </carrier>
   
-  <carrier>
-  	<active>true</active>  
-    <option>dobson</option>
-    <name>Dobson
-	  <short>Clearnet</short>
-	  <full>Clearnet</full>		
+  <carrier option="dobson_TODO" active="true">
+    <name>
+	  <short>Dobson</short>
+	  <full>Dobson</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>mobile.dobson.net</email>
 	</sms>	
   </carrier> 
   
-  <carrier>
-  	<active>true</active>  
-    <option>edge_wireless</option>
-    <name>Edge Wireless
-	  <short>Clearnet</short>
-	  <full>Clearnet</full>		
+  <carrier option=" edge_wireless_TODO" active="true">
+    <name>
+	  <short>Edge</short>
+	  <full>Edge Wireless</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>sms.edgewireless.com</email>
 	</sms>	
   </carrier>
     
-  <carrier>
-  	<active>true</active>  
-    <option>fido</option>
-    <name>Fido
-	  <short>Clearnet</short>
-	  <full>Clearnet</full>		
+  <carrier option="golden_telecom_TODO" active="true">
+    <name>
+	  <short>Golden</short>
+	  <full>Golden Telecom</full>		
 	</name>
-	<sms>
-	  <active>true</active>
-	  <email>fido.ca</email>
-	</sms>	
-  </carrier>
-  
-  <carrier>
-  	<active>true</active>  
-    <option>golden_telecom</option>
-    <name>Golden Telecom
-	  <short>Clearnet</short>
-	  <full>Clearnet</full>		
-	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>sms.goldentele.com</email>
 	</sms>	
   </carrier>
   
-  <carrier>
-  	<active>true</active>  
-    <option>helio</option>
-    <name>Helio
-	  <short>Clearnet</short>
-	  <full>Clearnet</full>		
+  <carrier option="helio_TODO" active="true">
+    <name>
+	  <short>Helio</short>
+	  <full>Helio</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>messaging.sprintpcs.com</email>
 	</sms>		
   </carrier>
 
-  <carrier>
-  	<active>true</active>  
-    <option>houston_cellular</option>
-    <name>Houston Cellular
-	  <short>Clearnet</short>
-	  <full>Clearnet</full>		
+  <carrier option="houston_cellular_us" active="true">
+    <name>
+	  <short>Houston</short>
+	  <full>Houston Cellular</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>text.houstoncellular.net</email>
 	</sms>		
   </carrier>
   
-  <carrier>
-  	<active>true</active>  
-    <option>idea_cellular</option>
-    <name>Idea Cellular
-	  <short>Clearnet</short>
-	  <full>Clearnet</full>		
+  <carrier option="idea_cellular_TODO" active="true">
+    <name>
+	  <short>Idea</short>
+	  <full>Idea Cellular</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>ideacellular.net</email>
 	</sms>	
   </carrier>
   
-  <carrier>
-  	<active>true</active>  
-    <option>illinois_valley_cellular</option>
-    <name>Illinois Valley Cellular
-	  <short>Clearnet</short>
-	  <full>Clearnet</full>		
+  <carrier option="illinois_valley_us" active="true">
+    <name>
+	  <short>Illinois Valley</short>
+	  <full>Illinois Valley Cellular</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>ivctext.com</email>
 	</sms>	
   </carrier> 
   
-  <carrier>
-  	<active>true</active>  
-    <option>inland_cellular_tele</option>
-    <name>Inland Cellular Telephone
-	  <short>Clearnet</short>
-	  <full>Clearnet</full>		
+  <carrier option="inland_cellular_TODO" active="true">
+    <name>
+	  <short>Inland Cellular</short>
+	  <full>Inland Cellular Telephone</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>inlandlink.com</email>
 	</sms>		
   </carrier>
   
-  <carrier>
-  	<active>true</active>  
-    <option>mci</option>
-    <name>MCI
-	  <short>Clearnet</short>
-	  <full>Clearnet</full>		
+  <carrier option="mci_us" active="true">
+    <name>
+	  <short>MCI</short>
+	  <full>MCI</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>pagemci.com</email>
 	</sms>		
   </carrier>
   
-  <carrier>
-  	<active>true</active>  
-    <option>metrocall</option>
-    <name>Metrocall
-	  <short>Clearnet</short>
-	  <full>Clearnet</full>		
+  <carrier option="metrocall_TODO" active="true">
+    <name>
+	  <short>Metrocall</short>
+	  <full>Metrocall</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>page.metrocall.com</email>
 	</sms>		
   </carrier>
   
-  <carrier>
-  	<active>true</active>  
-    <option>metrocall_2way</option>
-    <name>Metrocall 2-way
-	  <short>Clearnet</short>
-	  <full>Clearnet</full>		
+  <carrier option="metrocall_2way_TODO" active="true">
+    <name>
+	  <short>Metrocall 2-Way</short>
+	  <full>Metrocall 2-Way</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>my2way.com</email>
 	</sms>	
   </carrier>
 
-  <carrier>
-  	<active>true</active>  
-    <option>metro_pcs</option>
-    <name>Metro PCS
-	  <short>Clearnet</short>
-	  <full>Clearnet</full>		
+  <carrier option="metro_pcs_us" active="true">
+    <name>
+	  <short>Metro PCS</short>
+	  <full>Metro PCS</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>mymetropcs.com</email>
 	</sms>	
   </carrier>
   
-  <carrier>
-  	<active>true</active>  
-    <option>microcell</option>
-    <name>Microcell
-	  <short>Clearnet</short>
-	  <full>Clearnet</full>		
+  <carrier option="microcell" active="true">
+    <name>
+	  <short>Microcell</short>
+	  <full>Microcell</full>		
 	</name>
-	<sms>
-	  <active>true</active>
-	  <email>fido.ca</email>
+	<sms active="true">
+	  <email>TODO_fido.ca</email>
 	</sms>		
   </carrier>
   
-  <carrier>
-  	<active>true</active>  
-    <option>midwest_wireless</option>
-    <name>Midwest Wireless
-	  <short>Clearnet</short>
-	  <full>Clearnet</full>		
+  <carrier option="midwest_wireless_us" active="true">
+    <name>
+	  <short>Midwest Wireless</short>
+	  <full>Midwest Wireless</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>clearlydigital.com</email>
 	</sms>		
   </carrier> 
   
-  <carrier>
-  	<active>true</active>  
-    <option>mobilcomm</option>
-    <name>Mobilcomm
-	  <short>Clearnet</short>
-	  <full>Clearnet</full>		
+  <carrier option="mobilcomm_TODO" active="true">
+    <name>
+	  <short>Mobilcomm</short>
+	  <full>Mobilcomm</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>mobilecomm.net</email>
 	</sms>	
   </carrier>
 
-  <carrier>
-  	<active>true</active>  
-    <option>mts</option>
-    <name>MTS
-	  <short>Clearnet</short>
-	  <full>Clearnet</full>		
+  <carrier option="mts_mobility_TODO" active="true">
+    <name>
+	  <short>MTS</short>
+	  <full>MTS Mobility</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>text.mtsmobility.com</email>
 	</sms>	
   </carrier>
   
-  <carrier>
-  	<active>true</active>  
-    <option>nextel</option>
-    <name>Nextel
-	  <short>Clearnet</short>
-	  <full>Clearnet</full>		
+  <carrier option="nextel_us" active="true">
+    <name>
+	  <short>Nextel</short>
+	  <full>Nextel</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>messaging.nextel.com</email>
 	</sms>	
   </carrier>
   
-  <carrier>
-  	<active>true</active>  
-    <option>onlinebeep</option>
-    <name>OnlineBeep
-	  <short>Clearnet</short>
-	  <full>Clearnet</full>		
+  <carrier option="onlinebeep_TODO" active="true">
+    <name>
+	  <short>OnlineBeep</short>
+	  <full>OnlineBeep</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>onlinebeep.net</email>
 	</sms>	
   </carrier>
 
-  <carrier option="pcs_one_us">
-  	<active>true</active>  
+  <carrier option="pcs_one_us" active="true">
     <name>
 	  <short>PCS One</short>
 	  <full>PCS One</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>pcsone.net</email>
 	</sms>		
   </carrier>
   
-  <carrier option="presidents_choice_ca">
-  	<active>true</active>  
-    <name>
-	  <short>Presidents Choice</short>
-	  <full>Presidents Choice</full>		
-	</name>
-	<sms>
-	  <active>true</active>
-	  <email>txt.bell.ca</email>
-	</sms>	
-  </carrier>
-  
-  <carrier option="public_service_cellular">
- 	<active>true</active>  
+  <carrier option="public_service_cellular" active="true">
     <name>Public Service Cellular
 	  <short>Public Service Cellular</short>
 	  <full>Public Service Cellular</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>sms.pscel.com</email>
 	</sms>	
   </carrier> 
   
-  <carrier option="qwest_us">
-	<active>true</active>  
+  <carrier option="qwest_us" active="true">
     <name>
 	  <short>Qwest</short>
 	  <full>Communications</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>qwestmp.com</email>
 	</sms>	
   </carrier>
 
-  <carrier option="rogers_att_wireless_us">
-	<active>true</active>  
+  <carrier option="rogers_att_wireless_us" active="true">
     <name>
-	  <short>Rogers (AT&T)</short>
-	  <full>Rogers AT&T Wireless</full>		
+	  <short>Rogers (AT&amp;T)</short>
+	  <full>Rogers AT&amp;T Wireless</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>pcs.rogers.com</email>
 	</sms>		
   </carrier>
   
-  <carrier option="rogers_canada_ca">
-    <active>true</active>    
+  <carrier option="rogers_canada_ca" active="true">
     <name>
 	  <short>Rogers Canada</short>
 	  <full>Rogers Canada</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>satellink.net</email>
 	</sms>	
   </carrier>
   
-  <carrier option="solo_mobile_ca">
-    <active>true</active>   
+  <carrier option="solo_mobile_ca" active="true">
     <name>
 	  <short>Solo</short>
 	  <full>Solo Mobile</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>txt.bell.ca</email>
 	</sms>	
   </carrier>
 
-  <carrier option="southwestern_bell_us">
-    <active>true</active>  
+  <carrier option="southwestern_bell_us" active="true">
     <name>
 	  <short>Southwestern Bell</short>
 	  <full>Southwestern Bell</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>email.swbw.com</email>
 	</sms>	
   </carrier>
   
-  <carrier option="sprint_us">
-    <active>true</active>
+  <carrier option="sprint_us" active="true">
     <name>
 	  <short>Sprint</short>
 	  <full>Sprint</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>messaging.sprintpcs.com</email>
 	</sms>	
   </carrier>
   
-  <carrier option="suncom_TODO">
-    <active>true</active>
+  <carrier option="suncom_TODO" active="true">
     <name>
 	  <short>Suncom</short>
 	  <full>Suncom</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>tms.suncom.com</email>
 	</sms>	
   </carrier> 
 
-  <carrier option="t_mobile">
-    <active>true</active> 
+  <carrier option="t_mobile" active="true">
     <name>
 	  <short>T-Mobile</short>
 	  <full>T-Mobile</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>tmomail.net</email>
 	</sms>		
   </carrier>
   
-  <carrier option="telus_us">
-    <active>true</active> 
+  <carrier option="telus_us" active="true">
     <name>
 	  <short>Telus</short>
 	  <full>Telus</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>msg.telus.com</email>
 	</sms>		
   </carrier>
   
-  <carrier option="tracfone">
-    <active>true</active> 
+  <carrier option="tracfone" active="true">
     <name>Tracfone
 	  <short>Tracfone</short>
 	  <full>Tracfone</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>txt.att.net</email>
 	</sms>	
   </carrier>
 
-  <carrier option="triton_TODO">
-    <active>true</active>   
-    <</option>
+  <carrier option="triton_TODO" active="true">
     <name>
 	  <short>Triton</short>
 	  <full>Triton</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>tms.suncom.com</email>
 	</sms>	
   </carrier>
   
-  <carrier option="unicel_TODO">
-    <active>true</active>  
+  <carrier option="unicel_TODO" active="true">
     <name>
 	  <short>Unicel</short>
 	  <full>Unicel</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>utext.com</email>
 	</sms>	
   </carrier>
   
-  <carrier option="us_cellular_us">
-    <active>true</active>
+  <carrier option="us_cellular_us" active="true">
     <name>
 	  <short>US Cellular</short>
 	  <full>US Cellular</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>email.uscc.net</email>
 	</sms>	
   </carrier> 
   
-  <carrier option="us_west_us">
-    <active>true</active>
+  <carrier option="us_west_us" active="true">
     <name>
 	  <short>US West</short>
 	  <full>US West</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>uswestdatamail.com</email>
 	</sms>
   </carrier>
   
-  <carrier option="verizon_us">
-    <active>true</active>
+  <carrier option="verizon_us" active="true">
     <name>
 	  <short>Verizon</short>
 	  <full>Verizon Wireless</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>vtext.com</email>
-	<sms>  
+	</sms>  
   </carrier>
 
-  <carrier option="virgin_mobile_us">
-    <active>true</active>
+  <carrier option="virgin_mobile_us" active="true">
     <name>Virgin Mobile
 	  <short>Virgin</short>
 	  <full>Virgin Mobile</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>vmobl.com</email>
 	</sms>
   </carrier>
   
-  <carrier option="virgin_mobile_ca">
-    <active>true</active>
-    <name>
-	  <short>Virgin Mobile Canada</short>
-	  <full>Virgin Mobile Canada</full>		
-	</name>
-	<sms>
-	  <active>true</active>
-	  <email>vmobile.ca</email>
-	</sms>
-  </carrier>
-  
-  <carrier option="west_central_wireless_TODO">
-    <active>true</active>
+  <carrier option="west_central_wireless_TODO" active="true">
     <name>
 	  <short>West Central</short>
 	  <full>West Central Wireless</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>sms.wcc.net</email>
 	</sms>  
   </carrier>
 
-  <carrier option="western_wireless_TODO">
-    <active>true</active>
+  <carrier option="western_wireless_TODO" active="true">
     <name>
 	  <short>Western Wireless</short>
 	  <full>Western Wireless</full>		
 	</name>
-	<sms>
-	  <active>true</active>
+	<sms active="true">
 	  <email>cellularonewest.com</email>
 	</sms>
   </carrier>
-    
+  
+  </carriers>
 </country>
+
+</international>
+</document>
